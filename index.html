@@ -73,7 +73,7 @@
    				</td>
    			</tr>
    		</table>
-   		<form>
+   		<form method="POST" action="/signup">
    			<p>
    				<label>Login</label>
    				<input type="text" name="login" placeholder="Login" required>
@@ -94,8 +94,20 @@
    				<label>I agree with Terms and Condotions</label>
    				<input type="checkbox" name="agree" required>
    			</p>
-   			<button>Submit</button>
+   			<button type="submit">Submit</button>
    		</form>
+   		<br>
+   		<br>
+   		<form method="POST" action="/cookcarbonara">
+   			<input type="text" name="ingredient_1" placeholder="Spagetti"><br>
+   			<input type="text" name="ingredient_2" placeholder="Becon"><br>
+   			<input type="text" name="ingredient_3" placeholder="Creame"><br>
+   			<input type="text" name="ingredient_4" placeholder="Eggs"><br>
+   			<input type="text" name="ingredient_5" placeholder="Cheese"><br>
+   			<input type="checkbox" name="salted" required><label>To be salted?</label><br>
+   			<button type="submit">Cook!</button>
+   		</form>
+
    		<p>
    			<img src="https://scontent.fbre2-1.fna.fbcdn.net/v/t1.0-9/29597808_1301393643329413_3025690730201730695_n.jpg?_nc_cat=0&oh=16a95cd853ff1d246694dfe493088b98&oe=5B377FE4" width="568" height="760">
    		</p>
