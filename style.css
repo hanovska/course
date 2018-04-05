@@ -1,0 +1,36 @@
+body {
+	background-color: lavender;
+}
+
+.header {
+	text-align: center;
+}
+
+a.facebook_link {
+	color: mediumorchid;
+
+}
+
+a.facebook_link:hover {
+	font-size: 150%;
+}
+
+div {
+	background-color: ghostwhite;
+	padding: 20px;
+	border: 1px solid navy;
+
+}
+
+.first_block {
+	margin-bottom: 50px;
+}
+
+.second_block {
+	margin-bottom: 50px;
+	border-color: silver;
+}
+
+.third_block {
+	border-color: gold;
+}
