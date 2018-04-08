@@ -34,3 +34,12 @@ div {
 .third_block {
 	border-color: gold;
 }
+
+.phone_image {
+	position: fixed;
+	top: 300px;
+	right: 0;
+	width: 100px;
+	height: 100px;
+}
+
