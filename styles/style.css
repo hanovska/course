@@ -331,4 +331,48 @@ footer {
   }
 }
 
+.item_card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #979797;
+  background-color: #d8d8d8;
+  padding: 15px 0px 25px;
+  margin-bottom: 20px;
+}
+.item_card-img {
+  width: 111px;
+  height: 178px;
+  display: flex;
+  align-self: center;
+}
+
+.item_card:hover {
+  cursor: pointer;
+}
+
+.social_titel {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.social-background {
+  display: flex;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.social-background:hover {
+  cursor: pointer;
+}
+
+.social-sign {
+  display: flex;
+  align-self: center;
+}
 
