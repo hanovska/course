@@ -362,17 +362,23 @@ footer {
 .social-background {
   display: flex;
   width: 100%;
-  margin-right: 20px;
+  flex-direction: column;
+  position: relative;
   margin-bottom: 20px;
-  
+
+}
+
+.social-sign {
+  display: flex;
+  align-self: center;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .social-background:hover {
   cursor: pointer;
 }
 
-.social-sign {
-  display: flex;
-  align-self: center;
-}
+
 
