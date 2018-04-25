@@ -373,7 +373,7 @@ footer {
   align-self: center;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .social-background:hover {
@@ -393,8 +393,6 @@ footer {
 .current-item-img {
   width: 252px;
   height: 395px;
-  margin-top: 80px;
-  margin-left: 15px;
 }
 
 .current-item-btn {
@@ -405,8 +403,11 @@ footer {
   background-color: #f2f2f2;
   color: #3d3d3d;
   font-size: 20px;
+  
+}
+
+ul {
   margin-bottom: 48px;
-  margin-top: 48px;
 }
 
 .current-item-container {
@@ -419,7 +420,6 @@ footer {
   font-size: 36px;
   font-weight: bold;
   color: #000000;
-  margin-top: 72px;
   margin-bottom: 20px;
 }
 
@@ -427,12 +427,14 @@ footer {
   font-size: 18px;
   color: #000000;
   margin-bottom: 56px;
+  line-height: normal;
 }
 
 .features-titel {
   font-size: 24px;
   color: #000000;
   margin-bottom: 13px;
+  font-weight: bold;
 }
 
 .current-item-features {
@@ -441,14 +443,18 @@ footer {
   color: #000000;
   font-size: 18px;
   margin-bottom: 20px;
-  margin-right: 10px;
+  margin-left: -40px;
+}
+
+li {
+  list-style-type: none;
 }
 
 @media(max-width: 768px) {
   .current-item-img {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin-bottom: 30px;
 
   }
 
@@ -457,5 +463,15 @@ footer {
     justify-content: center;
     margin-left: 25px;
   }
+
+  .current-item {
+    padding: 50px 20px;
+  }
+
+  ul {
+    padding-top: 50px;
+  }
+
+
 }
 
