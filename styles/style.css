@@ -380,6 +380,32 @@ footer {
   cursor: pointer;
 }
 
+.social-link {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.vk-background {
+  background-color: #5f81a9;
+}
+
+.fb-background {
+  background-color: #2E5894;
+}
+
+.tg-background {
+  background-color: #04A0D7;
+}
+
+.md-background {
+  background-color: #01E674;
+}
+
+
 .current-item {
   display: flex;
   flex-direction: column;
